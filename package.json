@@ -1,0 +1,16 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run --config pageLoadTimeout=500000",
+    "test1": "node_modules\\.bin\\cypress run --browser chrome",
+    "runtests": "npm run test1 --"
+  },
+  "author": "Rahul Agrawal",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.11.0"
+  }
+}
